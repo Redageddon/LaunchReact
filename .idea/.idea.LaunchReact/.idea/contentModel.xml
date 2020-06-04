@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Rubiksmaster02\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Rubiksmaster02\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_LaunchReact.1628850427.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Rubiksmaster02\AppData\Roaming\JetBrains\Rider2020.1\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Rubiksmaster02\AppData\Roaming\JetBrains\Rider2020.1\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\Rubiksmaster02\RiderProjects\LaunchReact" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="LaunchReact.csproj" t="IncludeRecursive" />
+      <e p="LaunchReact.csproj.DotSettings" t="Include" />
+      <e p="LaunchReact.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Release" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="LaunchReact.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Src" t="Include">
+        <e p="Devices.cs" t="Include" />
+        <e p="MidiEventToNoteVelocity.cs" t="Include" />
+        <e p="MidiOutput.cs" t="Include" />
+        <e p="Players" t="Include">
+          <e p="LaunchpadProPlayer.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
