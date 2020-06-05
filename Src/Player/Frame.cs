@@ -23,5 +23,13 @@ namespace LaunchReact
 
             return onEvents;
         }
+        
+        public void Play() 
+        {
+            foreach (NoteOnEvent noteOnEvent in this.GetNoteOnEvents())
+            {
+                Devices.OutputDevice.SendEvent(noteOnEvent);
+            }
+        }
     }
 }

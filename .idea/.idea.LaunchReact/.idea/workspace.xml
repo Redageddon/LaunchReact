@@ -11,20 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac6aced-1b2a-4236-9fcc-8b9f9f459951" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/GlobalVariables.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Player/Frame.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Player/FramePlayer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Src/Player/LaunchpadProPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.LaunchReact/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaunchReact/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LaunchReact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaunchReact/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaunchReact.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LaunchReact.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaunchReact.csproj.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/LaunchReact.csproj.DotSettings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Devices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Devices.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/MidiEventToNoteVelocity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/MidiEventToNoteVelocity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/MidiOutput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/MidiEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Players/LaunchpadProPlayer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Src/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Player/Frame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Player/Frame.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Player/FramePlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Player/FramePlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Player/LaunchpadProPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Player/LaunchpadProPlayer.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +73,14 @@
         <option value="$PROJECT_DIR$/Src/Players/LaunchpadProPlayer.cs" />
         <option value="$PROJECT_DIR$/Resources/Resources.Designer.cs" />
         <option value="$PROJECT_DIR$/Resources/Test.Designer.cs" />
-        <option value="$PROJECT_DIR$/Src/Player/FramePlayer.cs" />
         <option value="$PROJECT_DIR$/LaunchReact.csproj" />
-        <option value="$PROJECT_DIR$/Src/Player/LaunchpadProPlayer.cs" />
-        <option value="$PROJECT_DIR$/Src/Player/Frame.cs" />
         <option value="$PROJECT_DIR$/Src/Program.cs" />
         <option value="$PROJECT_DIR$/Src/MidiEvent.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/Src/GlobalVariables.cs" />
+        <option value="$PROJECT_DIR$/Src/Player/LaunchpadProPlayer.cs" />
+        <option value="$PROJECT_DIR$/Src/Player/Frame.cs" />
+        <option value="$PROJECT_DIR$/Src/Player/FramePlayer.cs" />
       </list>
     </option>
   </component>
@@ -110,8 +100,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
     <configuration name="LaunchReact" type="DotNetProject" factoryName=".NET Project">
@@ -150,6 +141,8 @@
       <workItem from="1591373047138" duration="8000000" />
       <workItem from="1591387261374" duration="2657000" />
       <workItem from="1591393576689" duration="1045000" />
+      <workItem from="1591395048407" duration="54000" />
+      <workItem from="1591396501766" duration="1300000" />
     </task>
     <servers />
   </component>
@@ -187,34 +180,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="707" y="385" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591393905872" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1591389967224">
+    <state x="738" y="280" key="FileChooserDialogImpl" timestamp="1591396556596">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="738" y="280" key="FileChooserDialogImpl/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591396556596" />
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1591397801825">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1600.104.1600.900@-1600.104.1600.900" timestamp="1591225980103" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591389967224" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1591389967223">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591397801825" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1591397801825">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1920.1080/-1600.104.1600.900@-1600.104.1600.900" timestamp="1591225980103" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591389967223" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1591389967223">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591397801825" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1591397801824">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1920.1080/-1600.104.1600.900@-1600.104.1600.900" timestamp="1591225980103" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591389967223" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1591389967223">
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591397801824" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1591397801825">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1920.1080/-1600.104.1600.900@-1600.104.1600.900" timestamp="1591225980103" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591389967223" />
-    <state x="630" y="353" key="LayersDialog" timestamp="1591224012134">
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591397801825" />
+    <state x="630" y="353" key="LayersDialog" timestamp="1591396534606">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="630" y="353" key="LayersDialog/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591224012134" />
-    <state x="709" y="256" key="SettingsEditor" timestamp="1591393895723">
+    <state x="630" y="353" key="LayersDialog/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591396534606" />
+    <state x="709" y="256" key="SettingsEditor" timestamp="1591396558132">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="709" y="256" key="SettingsEditor/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591393895723" />
+    <state x="709" y="256" key="SettingsEditor/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591396558132" />
     <state x="681" y="280" width="540" height="524" key="StructurePopup" timestamp="1591314269109">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
