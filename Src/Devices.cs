@@ -5,7 +5,7 @@ namespace LaunchReact
 {
     public static class Devices
     {
-        public static InputDevice InputDevice { get; } = InputDevice.GetById(GetOption("input"));
+        public static InputDevice  InputDevice  { get; } = InputDevice.GetById(GetOption("input"));
         public static OutputDevice OutputDevice { get; } = OutputDevice.GetById(GetOption("output"));
 
         private static int GetOption(string optionName)

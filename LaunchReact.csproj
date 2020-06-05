@@ -9,6 +9,7 @@
     <ItemGroup>
       <None Remove=".gitignore" />
       <None Remove="LaunchReact.sln.DotSettings" />
+      <None Remove="LaunchReact.csproj.DotSettings" />
     </ItemGroup>
 
     <ItemGroup>
