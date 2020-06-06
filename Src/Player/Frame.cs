@@ -6,11 +6,9 @@ namespace LaunchReact
 {
     public class Frame
     {
-        public Frame()
-        {
-        }
-
+        public Frame() { }
         public Frame(List<MidiEvent> events) => this.Events = events;
+        
         public List<MidiEvent> Events { get; set; }
 
         public List<NoteOnEvent> GetNoteOnEvents()

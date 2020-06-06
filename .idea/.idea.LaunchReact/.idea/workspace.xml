@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ac6aced-1b2a-4236-9fcc-8b9f9f459951" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LaunchReact/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaunchReact/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LaunchReact/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LaunchReact/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Player/Frame.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Player/Frame.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Src/Player/FramePlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Player/FramePlayer.cs" afterDir="false" />
@@ -25,28 +26,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A6E27897-7B8A-4BF8-B70E-059E2C74C0DF/8/Vector2_Intrinsics.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/56C02F65-7F8E-4DE0-B35F-CD26C3C2693D/AF/ObsoleteAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/12791062-D873-4C35-9C70-4C2FC911B558/cf/25b6e32d/SevenBitNumber.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/12791062-D873-4C35-9C70-4C2FC911B558/f4/711de2fe/InputDevice.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/56C02F65-7F8E-4DE0-B35F-CD26C3C2693D/8a/f20f198f/02000150pdb.il" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Src/GlobalVariables.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/56C02F65-7F8E-4DE0-B35F-CD26C3C2693D/87/6473fbec/EventHandler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Src/Player/LaunchpadProPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/12791062-D873-4C35-9C70-4C2FC911B558/04/b303917c/NoteOnEvent.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/AB02CD16-F2D4-4F63-9852-C9C0CE73B943/E/Timer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/97F50630-12B2-4DF7-AB2A-C71D7DC158B4/d5/6c263562/02000005pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Src/Devices.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Src/MidiEventToNoteVelocity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/774D0E12-01A0-4391-A468-105AC2C608F6/11/Process.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/D7A68032-6B51-4D1E-B921-1C1B705E7318/3f/b943798a/02000006pdb.il" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/12791062-D873-4C35-9C70-4C2FC911B558/10/3c18af49/MidiEventReceivedEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Src/Player/Frame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Src/Player/FramePlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Src/Devices.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Src/MidiEvent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/56C02F65-7F8E-4DE0-B35F-CD26C3C2693D/BC/Range.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/A6E27897-7B8A-4BF8-B70E-059E2C74C0DF/7/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Src/MidiEventToNoteVelocity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Src/GlobalVariables.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Src/Player/LaunchpadProPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Src/Player/Frame.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Src/Player/FramePlayer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -78,9 +65,9 @@
         <option value="$PROJECT_DIR$/Src/MidiEvent.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/Src/GlobalVariables.cs" />
-        <option value="$PROJECT_DIR$/Src/Player/LaunchpadProPlayer.cs" />
-        <option value="$PROJECT_DIR$/Src/Player/Frame.cs" />
         <option value="$PROJECT_DIR$/Src/Player/FramePlayer.cs" />
+        <option value="$PROJECT_DIR$/Src/Player/Frame.cs" />
+        <option value="$PROJECT_DIR$/Src/Player/LaunchpadProPlayer.cs" />
       </list>
     </option>
   </component>
@@ -143,6 +130,8 @@
       <workItem from="1591393576689" duration="1045000" />
       <workItem from="1591395048407" duration="54000" />
       <workItem from="1591396501766" duration="1300000" />
+      <workItem from="1591401846059" duration="269000" />
+      <workItem from="1591402190039" duration="3012000" />
     </task>
     <servers />
   </component>
@@ -172,9 +161,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="824" y="403" key="#Notifications/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591224028178" />
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591374087811">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="191" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591405219514">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="191" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1591405219514" />
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591374087811" />
     <state x="707" y="385" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1591393905872">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -184,38 +174,51 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="738" y="280" key="FileChooserDialogImpl/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591396556596" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1591397801825">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1591405212139">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1591405212139" />
     <state width="1557" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1600.104.1600.900@-1600.104.1600.900" timestamp="1591225980103" />
     <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591397801825" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1591397801825">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1591405212139">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1591405212139" />
     <state width="1557" height="235" key="GridCell.Tab.0.center/0.0.1920.1080/-1600.104.1600.900@-1600.104.1600.900" timestamp="1591225980103" />
     <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591397801825" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1591397801824">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1591405212139">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1591405212139" />
     <state width="1557" height="235" key="GridCell.Tab.0.left/0.0.1920.1080/-1600.104.1600.900@-1600.104.1600.900" timestamp="1591225980103" />
     <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591397801824" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1591397801825">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1591405212139">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1591405212139" />
     <state width="1557" height="235" key="GridCell.Tab.0.right/0.0.1920.1080/-1600.104.1600.900@-1600.104.1600.900" timestamp="1591225980103" />
     <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591397801825" />
     <state x="630" y="353" key="LayersDialog" timestamp="1591396534606">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="630" y="353" key="LayersDialog/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591396534606" />
-    <state x="709" y="256" key="SettingsEditor" timestamp="1591396558132">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="284" y="11" key="SettingsEditor" timestamp="1591402314196">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="284" y="11" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1591402314196" />
     <state x="709" y="256" key="SettingsEditor/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591396558132" />
     <state x="681" y="280" width="540" height="524" key="StructurePopup" timestamp="1591314269109">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="681" y="280" width="540" height="524" key="StructurePopup/0.0.1920.1080/-1600.104.1600.900@0.0.1920.1080" timestamp="1591314269109" />
+    <state x="420" y="205" key="cloudConfig.PluginsDialog" timestamp="1591402115100">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="420" y="205" key="cloudConfig.PluginsDialog/0.0.1280.720@0.0.1280.720" timestamp="1591402115100" />
+    <state x="512" y="205" key="cloudConfig.SelfSettingsDialog" timestamp="1591401961818">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="512" y="205" key="cloudConfig.SelfSettingsDialog/0.0.1280.720@0.0.1280.720" timestamp="1591401961818" />
     <state x="638" y="273" width="644" height="534" key="find.popup" timestamp="1591379579588">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

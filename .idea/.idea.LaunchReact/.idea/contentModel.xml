@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Rubiksmaster02\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Rubiksmaster02\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_LaunchReact.1628850427.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Rubiksmaster02\AppData\Roaming\JetBrains\Rider2020.1\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\Rubiksmaster02\AppData\Roaming\JetBrains\Rider2020.1\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\Rubiksmaster02\RiderProjects\LaunchReact" t="IncludeRecursive">
+    <e p="C:\Users\tbyh2\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\tbyh2\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_LaunchReact.-111545298.00" t="ExcludeRecursive" />
+    <e p="C:\Users\tbyh2\Desktop\Projects\LaunchReact" t="IncludeRecursive">
       <e p="bin" t="ExcludeRecursive" />
       <e p="LaunchReact.csproj" t="IncludeRecursive" />
       <e p="LaunchReact.sln" t="IncludeFlat" />
