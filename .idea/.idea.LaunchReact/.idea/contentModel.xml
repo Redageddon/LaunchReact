@@ -4,9 +4,12 @@
     <e p="C:\Users\tbyh2\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
     <e p="C:\Users\tbyh2\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_LaunchReact.-111545298.00" t="ExcludeRecursive" />
     <e p="C:\Users\tbyh2\Desktop\Projects\LaunchReact" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="LaunchReact.csproj" t="IncludeRecursive" />
+      <e p="LaunchReact.csproj.DotSettings" t="Include" />
       <e p="LaunchReact.sln" t="IncludeFlat" />
+      <e p="LaunchReact.sln.DotSettings" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Release" t="Include">
           <e p="netcoreapp3.1" t="Include">

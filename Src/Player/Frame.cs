@@ -18,7 +18,7 @@ namespace LaunchReact
             {
                 onEvents.Add(new NoteOnEvent(new SevenBitNumber((byte) midiEvent.Note), new SevenBitNumber((byte) midiEvent.Velocity)));
             }
-
+            
             return onEvents;
         }
         

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Timers;
 
 namespace LaunchReact
@@ -21,12 +22,20 @@ namespace LaunchReact
         public List<Frame> Frames { get; set; }
         public int CurrentFrame { get; set; }
 
+        public FramePlayer() => this.timer.Elapsed += this.OnElapsed;
+
         public FramePlayer(float fps, List<Frame> frames)
         {
             this.Fps = fps;
             this.Frames = frames;
             this.timer.Interval = 1000f / this.Fps;
-            this.timer.Elapsed += this.PlayFrame;
+            this.timer.Elapsed += this.OnElapsed;
+        }
+
+        private void OnElapsed(object sender, ElapsedEventArgs e)
+        {
+            this.PlayFrame(this.CurrentFrame);
+            this.CurrentFrame++;
         }
 
         public void StartPlayingFrames() => this.timer.Start();
@@ -35,9 +44,9 @@ namespace LaunchReact
 
         public void ResetPlayer() => this.CurrentFrame = 0;
 
-        public void PlayFrame(object o, ElapsedEventArgs e)
+        public void PlayFrame(int frameToPlay)
         {
-            this.Frames[this.CurrentFrame].Play();
+            this.Frames[frameToPlay].Play();
             this.CurrentFrame++;
         }
     }
