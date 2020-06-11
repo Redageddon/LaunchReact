@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <!--<PublishTrimmed>true</PublishTrimmed>
+        <PublishReadyToRun>true</PublishReadyToRun>
+        dotnet publish -c release
+        <PublishSingleFile>true</PublishSingleFile>
+        <RuntimeIdentifier>win-x64</RuntimeIdentifier>-->
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Archived\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Archived\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Archived\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MidiIO\MidiIO.csproj" />
+    </ItemGroup>
+
+</Project>
