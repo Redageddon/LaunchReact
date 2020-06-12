@@ -2,8 +2,7 @@ using System;
 using System.Collections.ObjectModel;
 using MidiIO.CustomIntegers;
 using MidiIO.Messages;
-using MidiIO.Messages.Devices.Channels;
-using MidiIO.Messages.Devices.Channels.Notes;
+using MidiIO.Messages.Devices;
 
 namespace MidiIO.Devices
 {
@@ -27,15 +26,7 @@ namespace MidiIO.Devices
             this.isOpen                = false;
         }
 
-        public delegate void ControlChangeHandler(ControlChangeMessage msg);
-
-        public delegate void NoteOffHandler(NoteOffMessage msg);
-
-        public delegate void NoteOnHandler(NoteOnMessage msg);
-
-        public event ControlChangeHandler ControlChange;
-
-        public event NoteOffHandler NoteOff;
+        public delegate void NoteOnHandler(MidiMessage msg);
 
         public event NoteOnHandler NoteOn;
 
@@ -214,21 +205,15 @@ namespace MidiIO.Devices
             {
                 if (wMsg == Win32Api.Api.MidiInMessage.MIM_DATA)
                 {
-                    ShortMessageType messageType = ShortMessage.GetMessageType(dwParam1);
-                    ShortMessage.DecodeMessage(dwParam1, messageType, out Channel channel, out UInt7 note, out UInt7 velocity);
-                    switch (messageType)
+                    ShortMessage.DecodeMessage(dwParam1, out Channel channel, out UInt7 note, out UInt7 velocity);
+
+                    if (ShortMessage.IsNoteOn(dwParam1))
                     {
-                        case ShortMessageType.NoteOn:
-                            this.NoteOn?.Invoke(new NoteOnMessage(this, channel, note, velocity));
-                            break;
-                        case ShortMessageType.NoteOff:
-                            this.NoteOff?.Invoke(new NoteOffMessage(this, channel, note, velocity));
-                            break;
-                        case ShortMessageType.ControlChange:
-                            this.ControlChange?.Invoke(new ControlChangeMessage(this, channel, note, velocity));
-                            break;
-                        default:
-                            throw new ArgumentOutOfRangeException();
+                        this.NoteOn?.Invoke(new MidiMessage(this, channel, note, velocity));
+                    }
+                    else
+                    {
+                        throw new ArgumentOutOfRangeException();
                     }
                 }
             }

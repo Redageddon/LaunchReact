@@ -1,7 +1,6 @@
 ﻿using System;
 using MidiIO;
-using MidiIO.Messages.Devices.Channels;
-using MidiIO.Messages.Devices.Channels.Notes;
+using MidiIO.Messages.Devices;
 
 namespace LaunchReact
 {
@@ -10,19 +9,12 @@ namespace LaunchReact
         public LaunchpadProPlayer()
         {
             Devices.InputDevice.NoteOn        += this.NoteOn;
-            Devices.InputDevice.ControlChange += this.ControlChange;
         }
 
-        private void NoteOn(NoteOnMessage message)
+        private void NoteOn(MidiMessage midiMessage)
         {
-            Devices.OutputDevice.SendNoteOn(Channel.Channel1, message.Note, message.Velocity);
-            Console.WriteLine(message.Note);
-        }
-
-        private void ControlChange(ControlChangeMessage message)
-        {
-            Devices.OutputDevice.SendNoteOn(Channel.Channel1, message.Note, message.Velocity);
-            Console.WriteLine(message.Note);
+            Devices.OutputDevice.SendNoteOn(Channel.Channel1, midiMessage.Note, midiMessage.Velocity);
+            Console.WriteLine(midiMessage.Note);
         }
     }
 }

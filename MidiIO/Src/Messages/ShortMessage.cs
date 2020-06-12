@@ -5,21 +5,21 @@ namespace MidiIO.Messages
 {
     internal static class ShortMessage
     {
-        public static ShortMessageType GetMessageType(UIntPtr dwParam1) =>
+        public static bool IsNoteOn(UIntPtr dwParam1) =>
             ((int)dwParam1 & 0xf0) switch
             {
-                0x90 => ShortMessageType.NoteOn,
-                0x80 => ShortMessageType.NoteOff,
-                0xB0 => ShortMessageType.ControlChange,
-                0xA0 => ShortMessageType.NoteOn,
+                0x90 => true,
+                0x80 => true,
+                0xB0 => true,
+                0xA0 => true,
                 _    => throw new NotSupportedException(nameof(dwParam1))
             };
 
-        public static void DecodeMessage(UIntPtr dwParam1, ShortMessageType messageType, out Channel channel, out UInt7 note, out UInt7 velocity)
+        public static void DecodeMessage(UIntPtr dwParam1, out Channel channel, out UInt7 note, out UInt7 velocity)
         {
-            if (GetMessageType(dwParam1) != messageType)
+            if (!IsNoteOn(dwParam1))
             {
-                throw new ArgumentException($"Not a {messageType} message.");
+                throw new ArgumentException($"Not a noteOn message.");
             }
 
             channel   = (Channel)((int)dwParam1 & 0x0f);
